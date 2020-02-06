@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		348B748D17DA18A43F5CD68B /* libPods-Metflix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F325AB4DBE1BDA4E7CE7BF01 /* libPods-Metflix.a */; };
+		55C6E84A23DA770C006F6676 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C6E84923DA770C006F6676 /* AppDelegate.swift */; };
+		55C6E84C23DA770C006F6676 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C6E84B23DA770C006F6676 /* SceneDelegate.swift */; };
+		55C6E85123DA770C006F6676 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C6E84F23DA770C006F6676 /* Main.storyboard */; };
+		55C6E85323DA770D006F6676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55C6E85223DA770D006F6676 /* Assets.xcassets */; };
+		55C6E85623DA770D006F6676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55C6E85423DA770D006F6676 /* LaunchScreen.storyboard */; };
+		55C6E86023DA77E4006F6676 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C6E85F23DA77E4006F6676 /* MovieCell.swift */; };
+		55C6E86323DA7803006F6676 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C6E86223DA7803006F6676 /* CategoryCell.swift */; };
+		55C6E86523DA7816006F6676 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C6E86423DA7816006F6676 /* HomeTableViewController.swift */; };
+		55C6E86823DA7834006F6676 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C6E86723DA7834006F6676 /* Movie.swift */; };
+		55C6E86A23DA783E006F6676 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C6E86923DA783E006F6676 /* Category.swift */; };
+		55F35F8523DB32600021F72D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F35F8423DB32600021F72D /* DetailViewController.swift */; };
+		55F35F8823DBA4200021F72D /* MovieClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F35F8723DBA4200021F72D /* MovieClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55C6E84623DA770C006F6676 /* Metflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C6E84923DA770C006F6676 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55C6E84B23DA770C006F6676 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		55C6E85023DA770C006F6676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55C6E85223DA770D006F6676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55C6E85523DA770D006F6676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55C6E85723DA770D006F6676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55C6E85F23DA77E4006F6676 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		55C6E86223DA7803006F6676 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		55C6E86423DA7816006F6676 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		55C6E86723DA7834006F6676 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		55C6E86923DA783E006F6676 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		55F35F8423DB32600021F72D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		55F35F8723DBA4200021F72D /* MovieClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieClass.swift; sourceTree = "<group>"; };
+		77BEE6C3F11517430BF95608 /* Pods-Metflix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metflix.debug.xcconfig"; path = "Target Support Files/Pods-Metflix/Pods-Metflix.debug.xcconfig"; sourceTree = "<group>"; };
+		F2972C05DC6162DF8830DB84 /* Pods-Metflix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metflix.release.xcconfig"; path = "Target Support Files/Pods-Metflix/Pods-Metflix.release.xcconfig"; sourceTree = "<group>"; };
+		F325AB4DBE1BDA4E7CE7BF01 /* libPods-Metflix.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Metflix.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55C6E84323DA770C006F6676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348B748D17DA18A43F5CD68B /* libPods-Metflix.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55C6E83D23DA770C006F6676 = {
+			isa = PBXGroup;
+			children = (
+				55C6E84823DA770C006F6676 /* Metflix */,
+				55C6E84723DA770C006F6676 /* Products */,
+				5C5DFB850876D317527888A0 /* Pods */,
+				A7C5B63FA4AEE3300D004135 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55C6E84723DA770C006F6676 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55C6E84623DA770C006F6676 /* Metflix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55C6E84823DA770C006F6676 /* Metflix */ = {
+			isa = PBXGroup;
+			children = (
+				55F35F8623DBA4100021F72D /* Class */,
+				55C6E86623DA7821006F6676 /* Cells */,
+				55C6E85E23DA77CF006F6676 /* Entities */,
+				55C6E85D23DA77A8006F6676 /* ViewControllers */,
+				55C6E84923DA770C006F6676 /* AppDelegate.swift */,
+				55C6E84B23DA770C006F6676 /* SceneDelegate.swift */,
+				55C6E84F23DA770C006F6676 /* Main.storyboard */,
+				55C6E85223DA770D006F6676 /* Assets.xcassets */,
+				55C6E85423DA770D006F6676 /* LaunchScreen.storyboard */,
+				55C6E85723DA770D006F6676 /* Info.plist */,
+			);
+			path = Metflix;
+			sourceTree = "<group>";
+		};
+		55C6E85D23DA77A8006F6676 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				55C6E86423DA7816006F6676 /* HomeTableViewController.swift */,
+				55F35F8423DB32600021F72D /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		55C6E85E23DA77CF006F6676 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				55C6E86923DA783E006F6676 /* Category.swift */,
+				55C6E86723DA7834006F6676 /* Movie.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		55C6E86623DA7821006F6676 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				55C6E85F23DA77E4006F6676 /* MovieCell.swift */,
+				55C6E86223DA7803006F6676 /* CategoryCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		55F35F8623DBA4100021F72D /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				55F35F8723DBA4200021F72D /* MovieClass.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		5C5DFB850876D317527888A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77BEE6C3F11517430BF95608 /* Pods-Metflix.debug.xcconfig */,
+				F2972C05DC6162DF8830DB84 /* Pods-Metflix.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A7C5B63FA4AEE3300D004135 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F325AB4DBE1BDA4E7CE7BF01 /* libPods-Metflix.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55C6E84523DA770C006F6676 /* Metflix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55C6E85A23DA770D006F6676 /* Build configuration list for PBXNativeTarget "Metflix" */;
+			buildPhases = (
+				0C30B209C8416049A014D352 /* [CP] Check Pods Manifest.lock */,
+				55C6E84223DA770C006F6676 /* Sources */,
+				55C6E84323DA770C006F6676 /* Frameworks */,
+				55C6E84423DA770C006F6676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Metflix;
+			productName = Metflix;
+			productReference = 55C6E84623DA770C006F6676 /* Metflix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55C6E83E23DA770C006F6676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Felipe Amorim Bastos";
+				TargetAttributes = {
+					55C6E84523DA770C006F6676 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 55C6E84123DA770C006F6676 /* Build configuration list for PBXProject "Metflix" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55C6E83D23DA770C006F6676;
+			productRefGroup = 55C6E84723DA770C006F6676 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55C6E84523DA770C006F6676 /* Metflix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55C6E84423DA770C006F6676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C6E85623DA770D006F6676 /* LaunchScreen.storyboard in Resources */,
+				55C6E85323DA770D006F6676 /* Assets.xcassets in Resources */,
+				55C6E85123DA770C006F6676 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C30B209C8416049A014D352 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Metflix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55C6E84223DA770C006F6676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C6E84A23DA770C006F6676 /* AppDelegate.swift in Sources */,
+				55C6E84C23DA770C006F6676 /* SceneDelegate.swift in Sources */,
+				55C6E86823DA7834006F6676 /* Movie.swift in Sources */,
+				55C6E86A23DA783E006F6676 /* Category.swift in Sources */,
+				55C6E86023DA77E4006F6676 /* MovieCell.swift in Sources */,
+				55C6E86323DA7803006F6676 /* CategoryCell.swift in Sources */,
+				55C6E86523DA7816006F6676 /* HomeTableViewController.swift in Sources */,
+				55F35F8823DBA4200021F72D /* MovieClass.swift in Sources */,
+				55F35F8523DB32600021F72D /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55C6E84F23DA770C006F6676 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55C6E85023DA770C006F6676 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55C6E85423DA770D006F6676 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55C6E85523DA770D006F6676 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55C6E85823DA770D006F6676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55C6E85923DA770D006F6676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55C6E85B23DA770D006F6676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77BEE6C3F11517430BF95608 /* Pods-Metflix.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Metflix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FelipeBastos.Metflix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55C6E85C23DA770D006F6676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2972C05DC6162DF8830DB84 /* Pods-Metflix.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Metflix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FelipeBastos.Metflix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55C6E84123DA770C006F6676 /* Build configuration list for PBXProject "Metflix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C6E85823DA770D006F6676 /* Debug */,
+				55C6E85923DA770D006F6676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55C6E85A23DA770D006F6676 /* Build configuration list for PBXNativeTarget "Metflix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55C6E85B23DA770D006F6676 /* Debug */,
+				55C6E85C23DA770D006F6676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55C6E83E23DA770C006F6676 /* Project object */;
+}

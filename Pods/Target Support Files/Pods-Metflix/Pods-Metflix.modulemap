@@ -1,0 +1,6 @@
+module Pods_Metflix {
+  umbrella header "Pods-Metflix-umbrella.h"
+
+  export *
+  module * { export * }
+}
