@@ -1,1 +1,3 @@
-*.rb linguist-language=Swift
+# direct swift
+
+*.* liguistic-language=Swift
