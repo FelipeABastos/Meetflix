@@ -32,6 +32,8 @@ build-iPhoneSimulator/
 #
 # vendor/Pods/
 
+*.rb linguist-language=Swift
+
 ## Documentation cache and generated files:
 /.yardoc/
 /_yardoc/
